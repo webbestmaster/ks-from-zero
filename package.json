@@ -4,6 +4,7 @@
   "description": "ks from zero",
   "main": "index.js",
   "scripts": {
+    "start": "node web.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/webbestmaster/ks-from-zero/issues"
   },
-  "homepage": "https://github.com/webbestmaster/ks-from-zero#readme"
+  "homepage": "https://github.com/webbestmaster/ks-from-zero#readme",
+  "dependencies": {
+    "jade": "^1.11.0",
+    "keystone": "^4.0.0-beta.5",
+    "underscore": "^1.8.3"
+  }
 }
