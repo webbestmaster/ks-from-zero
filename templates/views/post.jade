@@ -1,0 +1,10 @@
+extends ../layouts/base
+
+block content
+    h1 Post!
+    p= data.post
+    p= cloudinaryUrl
+    p= cloudinaryUrl
+    p= cloudinaryUrl
+    p= cloudinaryUrl
+    img(src= data.post._.image.fit(750,200))

@@ -16,7 +16,11 @@ keystone.init({
     'session': true,
     'auth': true,
     'user model': 'User',
-    'cookie secret': '(your secret here) trytrurifhtdfsdahfkjdshfksafsdhlfksajdf'
+    'cookie secret': '(your secret here) trytrurifhtdfsdahfkjdshfksafsdhlfksajdf',
+
+    // my settings
+
+    'cloudinary config': 'cloudinary://834913238274823:sqddStH24jdfde130YywaTjX0x4@du7nae0ez'
 
 });
 
