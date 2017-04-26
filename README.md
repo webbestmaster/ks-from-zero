@@ -12,3 +12,6 @@ install mongo-db
 1 - download and unpack mongo-db
 2 - create anywhere folders data/db
 3 - run from unpacked mongo-db ./mongod --dbpath=<path-to>/data/db
+
+
+http://idea.imsxm.com/
