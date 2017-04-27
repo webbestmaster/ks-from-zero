@@ -12,7 +12,7 @@ mixin flash-messages(messages)
 
 mixin flash-message(message, type)
     div(class='alert alert-' + type)
-        if utils.isObject(message)
+        if message && message.keys
             if message.title
                 h4= message.title
             if message.detail
