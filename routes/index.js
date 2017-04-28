@@ -39,5 +39,6 @@ exports = module.exports = function(app) {
     app.get('/posts/:postId', routes.views.post);
     app.get('/signup', routes.views.signup);
     app.post('/signup', routes.views.signup);
+    app.get('/create-data/:title/:body', routes.views['create-data']);
 
 };
